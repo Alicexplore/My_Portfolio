@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{
+   margin: 0;
+   padding: 0;
+}
+
+.logotop {
+   margin-top: 0vw;
+   left: 1.5vw;
+   top: 1vw;
+   position: fixed;
+   width: 7%;
+}
+
+/* START BARNAV */
+
+
+/* END BARNAV */
+
+h1 {
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Bely Display';
+    margin-top: 4.5vw;
+}
+
+.hypertext {
+   text-align: center;
+   text-decoration: none;
+   color: black;
+}
+
+.undertitle {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1.35vw; 
+    margin-top: -5vw;
+    margin-bottom: 5vw;
+    font-style: italic;
+ }
+
+ .logoundertitle {
+   text-align: center;
+   margin: auto;
+   display: flex;
+   position: relative;
+   top: -2em;
+   width: 80%;
+ }
+
+.about {
+     font-family: 'Montserrat';
+     font-size: small;
+     text-align: center; 
+ }
+
+.explanations {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1.1vw; 
+    line-height: 1.5em;
+    position: relative;
+    top: -2em;
+}
+
+.container {
+    text-align: center;
+}
+
+
+.blink_me {
+   animation: blinker 2.3s linear infinite;
+ }
+ @keyframes blinker {
+   50% { 
+     opacity: 0;
+   }
+ }
+
+.copyright {
+   text-align: center;
+   font-size: 0.8vw;
+   font-family: 'Montserrat';
+}
