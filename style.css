@@ -68,7 +68,6 @@ h1 {
     text-align: center;
 }
 
-
 .blink_me {
    animation: blinker 2.3s linear infinite;
  }
