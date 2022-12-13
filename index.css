@@ -8,38 +8,13 @@ body{
    padding: 0;
 }
 
-header#sidebar {
-   position: fixed;
-   z-index: 999; /*passe devant tous les éléments*/
-   background: rgb(155, 24, 24);
-   height: 100vh;
-}
-
-header#sidebar .hamburger {
-   width: 30px;
-   height: 22px;
-   background-color: rgb(0, 0, 0);
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-between;
-}
-
-header#sidebar .hamburger .top,
-header#sidebar .hamburger .mid, 
-header#sidebar .hamburger .bottom {
-   width: 25px;
-   height: 3px;
-   background: rgb(203, 0, 0);
-}
-
-/* .logotop {
+.logotop {
    margin-top: 0vw;
    left: 1.5vw;
    top: 1vw;
    position: fixed;
    width: 7%;
-}  */
+}  
 
 /* START BARNAV */
 
@@ -49,8 +24,8 @@ h1 {
     text-align: center;
     font-size: 6vw;
     font-family: 'Bely Display';
-    margin-top: 4.5vw; 
-}
+    margin-top: 4.5vw;  
+} 
 
 .hypertext {
    text-align: center;
