@@ -1,8 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url(//db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely);
+
+/* searching for new typo to replace BELY DISPLAY */
 
 body{
    margin: 0;
    padding: 0;
+}
+
+header#sidebar {
+   position: fixed;
+   z-index: 999; /*passe devant tous les éléments*/
+}
+
+header#sidebar .hamburger {
+   width: 30px;
+   height: 22px;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-between;
+}
+
+header#sidebar .hamburger .top,
+header#sidebar .hamburger .mid, 
+header#sidebar .hamburger .bottom {
+   width: 25px;
+   height: 3px;
+   background: rgb(203, 0, 0);
 }
 
 .logotop {
