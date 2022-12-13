@@ -11,6 +11,8 @@ body{
 header#sidebar {
    position: fixed;
    z-index: 999; /*passe devant tous les éléments*/
+   background: rgb(155, 24, 24);
+   height: 100vh;
 }
 
 header#sidebar .hamburger {
@@ -31,13 +33,13 @@ header#sidebar .hamburger .bottom {
    background: rgb(203, 0, 0);
 }
 
-.logotop {
+/* .logotop {
    margin-top: 0vw;
    left: 1.5vw;
    top: 1vw;
    position: fixed;
    width: 7%;
-}
+}  */
 
 /* START BARNAV */
 
@@ -47,7 +49,7 @@ h1 {
     text-align: center;
     font-size: 6vw;
     font-family: 'Bely Display';
-    margin-top: 4.5vw;
+    margin-top: 4.5vw; 
 }
 
 .hypertext {
