@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url(//db.onlinewebfonts.com/c/f05f148ec6596f0b75375fa566aaf1fe?family=Bely);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Spectral:wght@800&display=swap');
 
 /* searching for new typo to replace BELY DISPLAY */
 
@@ -22,8 +22,8 @@ body{
 
 h1 {
     text-align: center;
-    font-size: 6vw;
-    font-family: 'Bely Display';
+    font-size: 7vw;
+    font-family: 'Poppins';
     margin-top: 7vw;  
 } 
 
@@ -37,7 +37,7 @@ h1 {
     text-align: center;
     font-family: 'Montserrat';
     font-size: 1.35vw; 
-    margin-top: -5vw;
+    margin-top: -6.5vw;
     margin-bottom: 5vw;
     font-style: italic;
  }
