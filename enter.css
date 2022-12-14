@@ -4,4 +4,15 @@
     font-family: "Bely display";
     text-align: center;
     margin-top: 240px;
+    text-decoration: none;
+    color: black;
+  }
+
+.ml4 {
+    font-weight: 900;
+    font-size: 10em;
+    font-family: "Bely display";
+    text-align: center;
+    text-decoration: none;
+    color: black;
   }
