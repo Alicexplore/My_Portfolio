@@ -1,3 +1,3 @@
-# My_Portfolio
+here is my portfolio in which will be everything I have learned and done since my entry to @adatechschool. 
 
-<!-- to do  -->
+Hope you'll enjoy its content!
