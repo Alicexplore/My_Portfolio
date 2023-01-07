@@ -26,3 +26,16 @@ window.addEventListener('DOMContentLoaded', () => {
 
     })  
 });
+
+// window pop up
+window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup").style.display = "block";
+        },
+        3800
+    )
+  });
+  document.querySelector("#close").addEventListener("click", function(){
+    document.querySelector(".popup").style.display = "none";
+  });

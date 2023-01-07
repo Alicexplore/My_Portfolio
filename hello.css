@@ -7,23 +7,90 @@ body {
     background-color: #f2f2f2; 
 }
 
+.boldtext {
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.popup{
+    /* background-color: #222222; */
+    background-image: url(./IMG/gradient.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 500px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 82%;
+    top: 40%;
+    /* border-radius: 8px; */
+    font-family: "apercu", sans-serif;
+    color: #222222;
+    /* font-weight: 700; */
+    display: none;
+    text-align: center;
+    z-index: 2;
+}
+
+.popup:hover {
+    
+}
+
+.littlelogo {
+    text-align: center;
+    margin-top: -2vw; 
+    width: 45%;
+    line-height: 25px;
+}
+
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.popup p{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0;
+    margin-top: 55px;  
+    line-height: 25px;
+}
+
+
 header {
-    position: relative;
-    left: 0;
-    top: 0;
     width: 100%;
-    height: 80px;
     z-index: 3;
+    display: inline-block;
 }
 
 header h4 {
     position: absolute;
     left: 10%;
-    margin-top: 1vw;
+    margin-top: 4.35vw;
     font-size: 1.6vw;
     color: #222222;
     font-family: "apercu", sans-serif;
     z-index: 3;
+    display: inline-block;
+}
+
+.logoleft {
+    margin-left: 1vw;
+
+    display: inline-block;
 }
 
 .intro {
@@ -129,7 +196,7 @@ header h4 {
 }
 
 .span2 {
-    margin-top: -9.5vw;
+    margin-top: 0vw;
     margin-left: 22vw;
     font-size: 10vw;
     text-align: left;
@@ -142,7 +209,7 @@ header h4 {
 
 .myname {
     margin-left: 11vw;
-    margin-top: -9.5vw;
+    margin-top: 1vw;
     font-size: 2vw;
     color: #222222;
     font-weight: bold;
@@ -158,14 +225,14 @@ header h4 {
     font-family: "apercu", sans-serif;
 }
 
-.imagebackground {
+/* .imagebackground {
    margin-left: 41vw;
    z-index: 1;
    margin-top: 14vw;
    opacity: 70%;
-}
+} */
 
-.homelink {
+/* .homelink {
     margin-top: -5vw;
 }
 
@@ -173,7 +240,6 @@ header h4 {
     margin-left: 78vw;
     font-family: 'abigate desgo', sans-serif;
     font-size: 4.5vw;
-    /* font-size: 1.5vw; */
     line-height: 4vw;
     color: #222222;
     font-weight: lighter;
@@ -184,7 +250,6 @@ header h4 {
     margin-left: 80vw;
     font-family: 'abigate desgo', sans-serif;
     font-size: 4.5vw;
-    /* font-size: 1.5vw; */
     line-height: 4vw;
     color: #222222;
     font-weight: lighter;
@@ -195,7 +260,6 @@ header h4 {
     margin-left: 75vw;
     font-family: 'abigate desgo', sans-serif;
     font-size: 4.5vw;
-    /* font-size: 1.5vw; */
     line-height: 4vw;
     color: #222222;
     font-weight: lighter;
@@ -206,7 +270,6 @@ header h4 {
     margin-left: 81vw;
     font-family: 'abigate desgo', sans-serif;
     font-size: 4.5vw;
-    /* font-size: 1.5vw; */
     line-height: 4vw;
     color: #222222;
     font-weight: lighter;
@@ -215,4 +278,53 @@ header h4 {
 
 .homelinks:hover  {
     color: white;
+} */
+
+.link {
+    margin-top: -5vw;
+    line-height: 30vw;
 }
+
+.link1 {
+    margin-left: 10vw;
+    font-family: 'abigate desgo', sans-serif;
+    font-size: 2.5vw;
+    font-style: oblique;
+    color: #222222;
+}
+
+.link2 {
+    margin-left: 12vw;
+    font-family: 'abigate desgo', sans-serif;
+    font-size: 2.5vw;
+    font-style: oblique;
+    color: #222222;
+}
+
+.link3 {
+    margin-left: 12vw;
+    font-family: 'abigate desgo', sans-serif;
+    font-size: 2.5vw;
+    font-style: oblique;
+    color: #222222;
+}
+
+.link4 {
+    margin-left: 12vw;
+    font-family: 'abigate desgo', sans-serif;
+    font-size: 2.5vw;
+    font-style: oblique;
+    color: #222222;
+}
+
+.plus {
+    font-family: "apercu", sans-serif;
+    font-weight: bolder;
+    font-size: 5vw;
+    color: #222222;
+}
+
+.link:hover  {
+    color: white;
+    cursor: pointer;
+} 
