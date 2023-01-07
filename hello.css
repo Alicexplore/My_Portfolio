@@ -1,4 +1,5 @@
 @import url('https://fonts.cdnfonts.com/css/apercu');
+@import url('https://fonts.cdnfonts.com/css/abigate-desgo');
 
 body {
     margin: 0;
@@ -165,10 +166,17 @@ header h4 {
 }
 
 .homelinks  {
-    
-    margin-top: 5vw;
-    margin-left: 70vw;
+    margin-top: -2vw;
+    margin-left: 80vw;
+    font-family: 'abigate desgo', sans-serif;
+    font-size: 4.5vw;
+    /* font-size: 1.5vw; */
+    line-height: 4vw;
     color: #222222;
-    font-family: "apercu", sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+}
 
+.homelinks:hover  {
+    color: white;
 }
