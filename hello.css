@@ -5,7 +5,12 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: "apercu", sans-serif;
+    background-color: cornsilk;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 header {
     position: relative;
@@ -18,8 +23,8 @@ header {
 header h4 {
     position: absolute;
     left: 10%;
-    bottom: 1rem;
-    font-size: 1.6rem;
+    margin-top: 1vw;
+    font-size: 1.6vw;
 }
 
 .intro {
@@ -44,7 +49,9 @@ header h4 {
 .logo {
     position: relative;
     display: inline-block;
-    bottom: -20px;
+    margin-top: 7vw;
+    align-items: center;
+    justify-content: center;
     opacity: 0;
 }
 
@@ -58,4 +65,17 @@ header h4 {
     bottom: 150px;
     opacity: 0;
     transition: ease-in-out 0.5s;
+}
+
+.title {
+    font-size: 10vw;
+    text-align: left;
+    font-family: "apercu", sans-serif;
+    font-weight: bold;
+    margin-left: 10vw; 
+    line-height: 8vw; 
+}
+
+.title span {
+    background-color: darkorange;
 }
