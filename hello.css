@@ -79,7 +79,15 @@ header h4 {
 }
 
 .title span {
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     padding: 1px 25px;
     color: #222222;
+}
+
+.span2 {
+    margin-left: 14vw;
+}
+
+.imagetitle {
+   margin-left: 10vw;
 }
