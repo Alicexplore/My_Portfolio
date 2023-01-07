@@ -69,37 +69,6 @@ header h4 {
     transition: ease-in-out 0.5s;
 }
 
-#mainmodal {
-    position: inherit;
-    font-family: "apercu", sans-serif;
-    font-weight: lighter;
-    top: 0;
-    left: 0;
-    background: #222222;;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
-.modalconent {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: #FFD700;
-    width: 100%;
-}
-
-
-.marquee {
-    font-family: "apercu", sans-serif;
-    font-weight: lighter;
-	color: #222222;
-	letter-spacing: 2px;
-	font-weight: 700;
-	padding: 30px;
-	font-size: 40px;
-}
-
 .span1 {
     /* background-color: rgb(255, 255, 255); */
     /* padding: 1px 25px; */
