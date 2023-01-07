@@ -165,9 +165,45 @@ header h4 {
    opacity: 70%;
 }
 
-.homelinks  {
-    margin-top: -2vw;
+.homelink {
+    margin-top: -5vw;
+}
+
+.homelink1  {
+    margin-left: 78vw;
+    font-family: 'abigate desgo', sans-serif;
+    font-size: 4.5vw;
+    /* font-size: 1.5vw; */
+    line-height: 4vw;
+    color: #222222;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.homelink2  {
     margin-left: 80vw;
+    font-family: 'abigate desgo', sans-serif;
+    font-size: 4.5vw;
+    /* font-size: 1.5vw; */
+    line-height: 4vw;
+    color: #222222;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.homelink3  {
+    margin-left: 75vw;
+    font-family: 'abigate desgo', sans-serif;
+    font-size: 4.5vw;
+    /* font-size: 1.5vw; */
+    line-height: 4vw;
+    color: #222222;
+    font-weight: lighter;
+    font-style: oblique;
+}
+
+.homelink4  {
+    margin-left: 81vw;
     font-family: 'abigate desgo', sans-serif;
     font-size: 4.5vw;
     /* font-size: 1.5vw; */
