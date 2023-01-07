@@ -4,8 +4,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "apercu", sans-serif;
-    background-color: rgb(236, 236, 236);
 }
 
 html {
@@ -26,6 +24,7 @@ header h4 {
     margin-top: 1vw;
     font-size: 1.6vw;
     color: #222222;
+    font-family: "apercu", sans-serif;
 }
 
 .intro {
@@ -48,6 +47,7 @@ header h4 {
 }
 
 .logo {
+    font-family: "apercu", sans-serif;
     position: relative;
     display: inline-block;
     margin-top: 7vw;
@@ -67,8 +67,7 @@ header h4 {
     opacity: 0;
     transition: ease-in-out 0.5s;
 }
-
-
+ 
 .span1 {
     /* background-color: rgb(255, 255, 255); */
     /* padding: 1px 25px; */
@@ -93,6 +92,26 @@ header h4 {
     color: #222222;
 }
 
-.imagetitle {
-   margin-left: 10vw;
+.myname {
+    margin-left: 11vw;
+    margin-top: -9vw;
+    font-size: 2vw;
+    color: #222222;
+    font-weight: bold;
+    font-family: "apercu", sans-serif;
 }
+
+.myname2 {
+    margin-left: 11vw;
+    margin-top: -2vw;
+    font-size: 1.3vw;
+    color: #222222;
+    font-weight: bold;
+    font-family: "apercu", sans-serif;
+}
+
+.imagetitle {
+    margin-left: 10vw;
+    margin-top: 30vw;
+}
+
