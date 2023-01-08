@@ -28,8 +28,8 @@ body {
     padding: 30px 40px;
     position: absolute;
     transform: translate(-50%,-50%);
-    left: 82.5%;
-    top: 40%;
+    left: 80%;
+    top: 50%;
     /* border-radius: 8px; */
     font-family: "apercu", sans-serif;
     color: #222222;
@@ -208,7 +208,7 @@ header h4 {
     margin-left: 9vw; 
     line-height: 8.5vw; 
     color: #222222;
-    margin-top: 5vw;
+    margin-top: 9vw;
 }
 
 .span2 {
@@ -388,26 +388,35 @@ header h4 {
 }
 
 .icons {
-    margin-left: 10vw;
+    margin-top: -32.5vw;
 }
 
 .icon1 {
-    
+    margin-left: 2vw;
+    line-height: 4.2vw;
+}
+
+.icon1:hover {
+    text: ""
 }
 
 .icon2 {
-    margin-left: 3vw;
+    line-height: 4.2vw;
+    margin-left: 2vw;
 }
 
 .icon3 {
-    margin-left: 3vw;
+    margin-left: 1.3vw;
+    line-height: 4.2vw;
 }
 
 .icon4 {
-    margin-left: 3vw;
+    line-height: 4.2vw;
+    margin-left: 2.1vw;
 }
 
 .icon5 {
-    margin-left: 3vw;
+    line-height: 7.2vw;
+    margin-left: 2.2vw;
 }
 
