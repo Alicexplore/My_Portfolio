@@ -40,18 +40,17 @@ body {
     z-index: 2;
 }
 
-.popup__overlay {
+/* .popup__overlay {
 	-webkit-filter: blur(4px);
 	filter: blur(4px);
 	transition: .3s ease-in-out;
-}
+} */
 
-.popup__overlay:hover {
+/* .popup__overlay:hover {
     -webkit-filter: blur(0);
 	filter: blur(0);
     cursor: pointer;
-
-}
+} */
 
 .littlelogo {
     text-align: center;
@@ -75,8 +74,8 @@ body {
     font-size: 16px;
     text-align: center;
     margin: 20px 0;
-    margin-top: 55px;  
-    line-height: 25px;
+    margin-top: 50px;  
+    line-height: 24px;
 }
 
 
