@@ -226,14 +226,13 @@ header h4 {
     font-family: "apercu", sans-serif;
 }
 
-.myname2 {
+/* .developer {
     margin-left: 11vw;
-    margin-top: -2vw;
+    margin-top: 0vw;
     font-size: 1.3vw;
     color: #222222;
-    font-weight: bold;
     font-family: "apercu", sans-serif;
-}
+} */
 
 .hand {
     margin-top: -33vw;
