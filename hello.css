@@ -9,7 +9,7 @@ body {
 
 .boldtext {
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 1.7vw;
 }
 
 *,
@@ -29,7 +29,7 @@ body {
     position: absolute;
     transform: translate(-50%,-50%);
     left: 80%;
-    top: 50%;
+    top: 53%;
     /* border-radius: 8px; */
     font-family: "apercu", sans-serif;
     color: #222222;
@@ -43,14 +43,14 @@ body {
 .popup__overlay {
 	-webkit-filter: blur(4px);
 	filter: blur(4px);
-	-webkit-transition: 3s ease-in-out;
-	transition: 3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .popup__overlay:hover {
     -webkit-filter: blur(0);
 	filter: blur(0);
     cursor: pointer;
+
 }
 
 .littlelogo {
@@ -98,10 +98,12 @@ header h4 {
 }
 
 .logoleft {
+    /* margin-left: 1vw; */
     margin-left: 1vw;
-
     display: inline-block;
 }
+
+
 
 .intro {
     position: fixed;
