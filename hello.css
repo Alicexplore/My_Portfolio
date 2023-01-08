@@ -49,8 +49,8 @@ body {
 .popup__overlay {
 	-webkit-filter: blur(4px);
 	filter: blur(4px);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
+	-webkit-transition: 3s ease-in-out;
+	transition: 3s ease-in-out;
 }
 
 .popup__overlay:hover {
@@ -313,9 +313,10 @@ header h4 {
     -webkit-filter: blur(3px);
 	filter: blur(3px);
     cursor: pointer;
-    opacity: 50%;
-    transition:all 0.7s;
-    overflow: hidden;
+  
+    
+    transition:0.7s;
+   
 }
 
 .link2 {
