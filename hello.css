@@ -40,12 +40,6 @@ body {
     z-index: 2;
 }
 
-/* .popup__overlay {
-    opacity: 50%;
-    transition: opacity -1s;
-    z-index: 2;
-} */
-
 .popup__overlay {
 	-webkit-filter: blur(4px);
 	filter: blur(4px);
@@ -241,147 +235,6 @@ header h4 {
     font-family: "apercu", sans-serif;
 }
 
-/* .imagebackground {
-   margin-left: 41vw;
-   z-index: 1;
-   margin-top: 14vw;
-   opacity: 70%;
-} */
-
-/* .homelink {
-    margin-top: -5vw;
-}
-
-.homelink1  {
-    margin-left: 78vw;
-    font-family: 'abigate desgo', sans-serif;
-    font-size: 4.5vw;
-    line-height: 4vw;
-    color: #222222;
-    font-weight: lighter;
-    font-style: oblique;
-}
-
-.homelink2  {
-    margin-left: 80vw;
-    font-family: 'abigate desgo', sans-serif;
-    font-size: 4.5vw;
-    line-height: 4vw;
-    color: #222222;
-    font-weight: lighter;
-    font-style: oblique;
-}
-
-.homelink3  {
-    margin-left: 75vw;
-    font-family: 'abigate desgo', sans-serif;
-    font-size: 4.5vw;
-    line-height: 4vw;
-    color: #222222;
-    font-weight: lighter;
-    font-style: oblique;
-}
-
-.homelink4  {
-    margin-left: 81vw;
-    font-family: 'abigate desgo', sans-serif;
-    font-size: 4.5vw;
-    line-height: 4vw;
-    color: #222222;
-    font-weight: lighter;
-    font-style: oblique;
-}
-
-.homelinks:hover  {
-    color: white;
-} */
-
-.link {
-    margin-top: -6vw;
-    line-height: 30vw;
-}
-
-.link1 {
-    margin-left: 10vw;
-    font-family: 'abigate desgo', sans-serif;
-    font-size: 2vw;
-    font-style: oblique;
-    color: #222222;
-}
-
-.link1:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-  
-    
-    transition:0.7s;
-   
-}
-
-.link2 {
-    margin-left: 14vw;
-    font-family: 'abigate desgo', sans-serif;
-    font-size: 2vw;
-    font-style: oblique;
-    color: #222222;
-}
-
-.link2:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    opacity: 50%;
-    transition:all 0.7s;
-    overflow: hidden;
-}
-
-.link3 {
-    margin-left: 14vw;
-    font-family: 'abigate desgo', sans-serif;
-    font-size: 2vw;
-    font-style: oblique;
-    color: #222222;
-}
-
-.link3:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    opacity: 50%;
-    transition:all 0.7s;
-    overflow: hidden;
-}
-
-.link4 {
-    margin-left: 14vw;
-    font-family: 'abigate desgo', sans-serif;
-    font-size: 2vw;
-    font-style: oblique;
-    color: #222222;
-}
-
-.link4:hover {
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-    cursor: pointer;
-    opacity: 50%;
-    transition:all 0.7s;
-    overflow: hidden;
-}
-
-.plus {
-    font-family: 'abigate desgo', sans-serif;
-    font-weight: bold;
-    font-size: 5vw;
-    color: #222222;
-}
-
-.link:hover  {
-    color: white;
-    cursor: pointer;
-} 
-
 .hand {
     margin-top: -33vw;
     margin-left: 65vw;
@@ -397,7 +250,10 @@ header h4 {
 }
 
 .icon1:hover {
-    text: ""
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+    cursor: pointer;
+    transition:all 0.7s;
 }
 
 .icon2 {
@@ -405,18 +261,50 @@ header h4 {
     margin-left: 2vw;
 }
 
+.icon2:hover {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+    cursor: pointer;
+    transition:all 0.7s;
+}
+
+
 .icon3 {
     margin-left: 1.3vw;
     line-height: 4.2vw;
 }
+
+.icon3:hover {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+    cursor: pointer;
+    transition:all 0.7s;
+}
+
 
 .icon4 {
     line-height: 4.2vw;
     margin-left: 2.1vw;
 }
 
+.icon4:hover {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+    cursor: pointer;
+    transition:all 0.7s;
+}
+
+
 .icon5 {
     line-height: 7.2vw;
     margin-left: 2.2vw;
 }
+
+.icon5:hover {
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+    cursor: pointer;
+    transition:all 0.7s;
+}
+
 
